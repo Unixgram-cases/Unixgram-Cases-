@@ -1,1 +1,29 @@
-
+[
+  {
+    "id": "rockets",
+    "name": "Ракеты",
+    "price": 50,
+    "image": "/img/rockets.png",
+    "description": "Классический кейс с ракетами",
+    "items": [
+      { "id": "r1", "name": "Обычная ракета", "value": 10, "chance": 50, "rarity": "common", "color": "#9ca3af" },
+      { "id": "r2", "name": "Серебряная ракета", "value": 30, "chance": 25, "rarity": "uncommon", "color": "#60a5fa" },
+      { "id": "r3", "name": "Золотая ракета", "value": 80, "chance": 15, "rarity": "rare", "color": "#fbbf24" },
+      { "id": "r4", "name": "Алмазная ракета", "value": 200, "chance": 7, "rarity": "epic", "color": "#a78bfa" },
+      { "id": "r5", "name": "Легендарная ракета", "value": 500, "chance": 3, "rarity": "legendary", "color": "#f472b6" }
+    ]
+  },
+  {
+    "id": "starter",
+    "name": "Стартовый",
+    "price": 20,
+    "image": "/img/starter.png",
+    "description": "Для новичков",
+    "items": [
+      { "id": "s1", "name": "5 звёзд", "value": 5, "chance": 60, "rarity": "common", "color": "#9ca3af" },
+      { "id": "s2", "name": "15 звёзд", "value": 15, "chance": 25, "rarity": "uncommon", "color": "#60a5fa" },
+      { "id": "s3", "name": "40 звёзд", "value": 40, "chance": 12, "rarity": "rare", "color": "#fbbf24" },
+      { "id": "s4", "name": "100 звёзд", "value": 100, "chance": 3, "rarity": "epic", "color": "#a78bfa" }
+    ]
+  }
+]
